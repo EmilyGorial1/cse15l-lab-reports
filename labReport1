@@ -1,0 +1,28 @@
+**1) cd with no arguments**
+
+cd
+
+**2) cd with path to directory as argument**
+
+cd cse15l-lab-reports
+
+**3) cd with path to file as argument**
+
+
+
+**1) ls with no arguments**
+
+
+**2) ls with path to directory as argument**
+
+
+**3) ls with path to file as argument**
+
+
+**1) cat with no arguments**
+
+
+**2) cat with path to directory as argument**
+
+
+**3) cat with path to file as argument
