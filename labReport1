@@ -1,12 +1,7 @@
 **1) cd with no arguments**
 
-cd
+cd commands
 
-**2) cd with path to directory as argument**
-
-cd cse15l-lab-reports
-
-**3) cd with path to file as argument**
 
 
 
