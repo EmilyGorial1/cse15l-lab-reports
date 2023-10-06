@@ -22,4 +22,4 @@ cat with no arguments
 
 cat with path to directory as argument and cat with path to file as argument
 
-![Image]()
+![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/4#issue-1929430427)
