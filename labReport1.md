@@ -18,7 +18,7 @@ cat commands
 
 cat with no arguments
 
-![Image]()
+![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/4#issue-1929430427)
 
 cat with path to directory as argument and cat with path to file as argument
 
