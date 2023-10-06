@@ -1,4 +1,4 @@
-**1) cd with no arguments**
+**1) cd with no arguments, cd with path to directory as argument, cd with path to file as argument**
 
 cd commands
 
