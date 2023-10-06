@@ -2,7 +2,7 @@
 
 cd commands
 
-![Image](http://https://web.us.edusercontent.com/ticohkf0lug242ulh5c1p72ook/running%20cd%20commands.PNG)
+![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/1#issue-1929309996)
 
 
 **1) ls with no arguments**
