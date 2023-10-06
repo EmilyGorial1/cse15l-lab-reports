@@ -5,9 +5,6 @@ cd commands
 ![Image](http://https://web.us.edusercontent.com/ticohkf0lug242ulh5c1p72ook/running%20cd%20commands.PNG)
 
 
-
-
-
 **1) ls with no arguments**
 
 
