@@ -9,13 +9,17 @@ cd commands
 
 ls commands
 
+![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/2#issue-1929321720)
+
+
+**3) cat with no arguments, cat with path to directory as argument, cat with path to file as argument**
+
+cat commands
+
+cat with no arguments
+
 ![Image]()
 
+cat with path to directory as argument and cat with path to file as argument
 
-**1) cat with no arguments**
-
-
-**2) cat with path to directory as argument**
-
-
-**3) cat with path to file as argument
+![Image]()
