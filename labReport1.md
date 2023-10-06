@@ -2,7 +2,7 @@
 
 cd commands
 
-![Image](http://running cd commands 1.PNG)
+![Image](http://https://web.us.edusercontent.com/ticohkf0lug242ulh5c1p72ook/running%20cd%20commands.PNG)
 
 
 
