@@ -7,8 +7,7 @@ cd commands
     [user@sahara ~]$ cd lecture1
     [user@sahara ~/lecture1]$ cd Hello.class
     bash: cd: Hello.class: Not a directory
-    
-    ```
+    '''
 
 
 **2) ls with no arguments, ls with path to directory as argument, ls with path to file as argument**
@@ -22,7 +21,7 @@ ls commands
    Hello.class  Hello.java  messages  README
    [user@sahara ~]$ ls Hello.class
    ls: cannot access 'Hello.class': No such file or directory
-   ```
+   '''
 
 
 **3) cat with no arguments, cat with path to directory as argument, cat with path to file as argument**
