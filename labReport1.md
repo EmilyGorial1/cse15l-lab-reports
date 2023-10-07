@@ -2,10 +2,12 @@
 
 cd commands
 
-~~~[user@sahara ~]$ cd
+    ```
+    [user@sahara ~]$ cd
     [user@sahara ~]$ cd lecture1
     [user@sahara ~/lecture1]$ cd Hello.class
-    bash: cd: Hello.class: Not a directory```
+    bash: cd: Hello.class: Not a directory
+                                             ```
 
 
 **2) ls with no arguments, ls with path to directory as argument, ls with path to file as argument**
