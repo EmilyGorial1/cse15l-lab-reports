@@ -28,10 +28,4 @@ ls commands
 
 cat commands
 
-cat with no arguments
 
-![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/3#issue-1929429255)
-
-cat with path to directory as argument and cat with path to file as argument
-
-![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/4#issue-1929430427)
