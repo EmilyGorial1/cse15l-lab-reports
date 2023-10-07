@@ -14,14 +14,14 @@ cd commands
 
 ls commands
 
-   ```
+   ~~~
    [user@sahara ~]$ ls
    lecture1  'running cd commands.PNG'
    [user@sahara ~]$ ls lecture1
    Hello.class  Hello.java  messages  README
    [user@sahara ~]$ ls Hello.class
    ls: cannot access 'Hello.class': No such file or directory
-   '''
+   ~~~
 
 
 **3) cat with no arguments, cat with path to directory as argument, cat with path to file as argument**
