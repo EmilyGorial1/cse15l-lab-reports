@@ -2,7 +2,10 @@
 
 cd commands
 
-![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/1#issue-1929309996)
+///[user@sahara ~]$ cd
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cd Hello.class
+bash: cd: Hello.class: Not a directory ///
 
 
 **2) ls with no arguments, ls with path to directory as argument, ls with path to file as argument**
