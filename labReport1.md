@@ -8,6 +8,11 @@ cd commands
 [user@sahara ~/lecture1]$ cd Hello.class
 bash: cd: Hello.class: Not a directory
 ```
+For cd with no arguments, the working dirctory is just /home. There is no output because we did not give cd a directory to change to. For this reason there is no change or output.
+
+For cd lecture1, the working directory is now /home/lecture1. There is no output, however we now see that 'lecture1' has been added behind the tilde symbol, indicating that we are now in the lecture1 folder.
+
+For cd Hello.class, the working directory is also /home/lecture1. Our output produces an error because the command cd tells the computer to change directory, yet we passed in 'Hello.class', which is not a directory. For this reason, we get an error for our output.
 
 
 **2) ls with no arguments, ls with path to directory as argument, ls with path to file as argument**
