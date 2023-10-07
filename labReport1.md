@@ -29,3 +29,5 @@ ls commands
 cat commands
 
 
+[user@sahara ~]$ cat
+
