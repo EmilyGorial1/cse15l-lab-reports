@@ -12,7 +12,13 @@ cd commands
 
 ls commands
 
-![Image](https://github.com/EmilyGorial1/cse15l-lab-reports/issues/2#issue-1929321720)
+```[user@sahara ~]$ ls
+   lecture1  'running cd commands.PNG'
+   [user@sahara ~]$ ls lecture1
+   Hello.class  Hello.java  messages  README
+   [user@sahara ~]$ ls Hello.class
+   ls: cannot access 'Hello.class': No such file or directory
+   [user@sahara ~]$ 
 
 
 **3) cat with no arguments, cat with path to directory as argument, cat with path to file as argument**
