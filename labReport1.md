@@ -24,8 +24,8 @@ ls commands
    lecture1  'running cd commands.PNG'
    [user@sahara ~]$ ls lecture1
    Hello.class  Hello.java  messages  README
-   [user@sahara ~]$ ls Hello.class
-   ls: cannot access 'Hello.class': No such file or directory
+   [user@sahara ~]$ ls lecture1/messages
+   en-us.txt  es-mx.txt  fr-be.txt  zh-cn.txt
    ```
  For ls with no argument, the working directory is /home. The output is lecture1 'running cd commands.PNG because these are the files 
  contained within our working directory (/home).
@@ -33,7 +33,8 @@ ls commands
  For ls with a path to a directory, the working directory is /home/lecture1. The output lists the files contained in the lecture1 folder 
  because the ls command lists files and folders from the given path.
 
- For ls with a path to a file, the working directory is /home/lecture1. The output is an error because Hello.class is a file. The ls command lists the files and folders in a given path, yet Hello.class itself is a file and does not contain any files/folders.
+ For ls with a path to a file, the working directory is /home/lecture1/messages. The output lists the files contained inside of the 
+ messages folder, which is exactly what the ls command is inteded for.
 
 
 **3) cat with no arguments, cat with path to directory as argument, cat with path to file as argument**
