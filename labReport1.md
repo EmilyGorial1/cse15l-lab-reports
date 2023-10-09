@@ -30,7 +30,7 @@ ls commands
  For ls with no argument, the working directory is /home. The output is lecture1 'running cd commands.PNG because these are the files 
  contained within our working directory (/home).
 
- For ls with a path to a directory, the working directory is /home/lecture1. The output lists the files contained in the lecture1 folder 
+ For ls with a path to a directory, the working directory is /home. The output lists the files contained in the lecture1 folder 
  because the ls command lists files and folders from the given path.
 
  For ls with a path to a file, the working directory is /home/lecture1/messages. The output lists the files contained inside of the 
