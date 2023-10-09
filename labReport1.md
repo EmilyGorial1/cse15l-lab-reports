@@ -30,10 +30,10 @@ ls commands
  For ls with no argument, the working directory is /home. The output is lecture1 'running cd commands.PNG because these are the files 
  contained within our working directory (/home).
 
- For ls with a path to a directory, the working directory is /home. The output lists the files contained in the lecture1 folder 
+ For ls with a path to a directory, the working directory is /home/lecture1. The output lists the files contained in the lecture1 folder 
  because the ls command lists files and folders from the given path.
 
- For ls with a path to a file, the working directory is /home/lecture1. The output is lecture1/Hello.java because ls is meant to print 
+ For ls with a path to a file, the working directory is /home/lecture1/Hello.java. The output is lecture1/Hello.java because ls is meant to print 
  the contents of a directory. When you pass in a file, there are no files/folders conatined within the file, so, for this reason, the ls 
  command does not work as it is intended to.
 
@@ -60,7 +60,7 @@ public class Hello {
 ```
 For cat with no command, the working directory is /home. For this command, no output is produced because the cat command is typicaly used to print the contents of a file given by the path, yet there is no path (argument) given, and for this reason nothing can be printed.
 
-For cat with a path to a directory, the working directory is /home. For this command our output is an error. The cat command prints the content of a file, lecture1 is a directory, and for this reason, the cat command is not used in the way it was intended to be used.
+For cat with a path to a directory, the working directory is /home/lecture1. For this command our output is an error. The cat command prints the content of a file, lecture1 is a directory, and for this reason, the cat command is not used in the way it was intended to be used.
 
 For cat with a path to a file, the working directory is /home/lecture1/Hello.java. For this command, the output is the contents of the Hello.java file printed. This is expected, as we know the cat command is used to print the contents of a file.
 
