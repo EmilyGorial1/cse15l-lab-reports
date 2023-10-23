@@ -1,6 +1,6 @@
 **String Server Code**
 
-![Image](file:///C:/Users/Owner/Pictures/Screenshots/StringServer%201.png)
+![StringServer 1](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/98433674-6417-4b2e-aa68-1999b798d211)
 
 ![Image](file:///C:/Users/Owner/Pictures/Screenshots/StringServer%202.png)
 
@@ -17,3 +17,4 @@
 
 
 
+![StringServer 1](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/98433674-6417-4b2e-aa68-1999b798d211)
