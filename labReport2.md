@@ -35,5 +35,8 @@
 
 ![logging into remote server using public key p2](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/d5563f7c-9748-4a9a-923f-e2c1a039d7fb)
 
+**Something new that I learned from lab in week 2 or 3 that I didn't know before**
+
+Over the past couple weeks in lab, I feel that I have learned a lot of things about computers that I never knew before. Firstly, I did not know that you can change a server simply by editing the query or the path. I also did not know that you could login or access another computer while physically using a different computer. I also did not know anything about SSH keys or how they work, and I feel that now, I have a pretty good understanding of them. Additionally, I was not familiar with commands such as ssh or scp, and I feel that I am now able to work comfortably using both commands.
 
 
