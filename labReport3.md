@@ -13,7 +13,8 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{2,1}, input1};
    }
-}```
+}
+```
 
 2.) An input that does not induce a failure
 
@@ -26,7 +27,8 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{1}, input1};
    }
-}```
+}
+```
 
 3.) Screenshots of the symptom as the output of running the tests for each input above
 
