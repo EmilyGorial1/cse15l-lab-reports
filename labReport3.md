@@ -30,11 +30,10 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
 
 3.) Screenshots of the symptom as the output of running the tests for each input above
 
-![testReverseInPlace-f.png](https://github.com/EmilyGorial1/cse15l-lab-reports/blob/d3df4cdf1b7a8c0c7bb7eb2038d13a70a6f89bde/testReverseInPlace-f.png)
+![testReverseInPlace-nf1](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/7f2e25af-fc1e-44e3-83a4-bcf4bf897afa)
 
-![testReverseInPlace- input that does not induce failure part 1.png](https://github.com/EmilyGorial1/cse15l-lab-reports/blob/facd580c93bf02b9540b63d17228ed0d589ca3d6/testReverseInPlace-%20input%20that%20does%20not%20induce%20failure%20part%201.png)
+![testReverseInPlace-nf2](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/e5cee4b4-b5de-4b31-b495-2ac89029e06d)
 
-![testReverseInPlace- input that does not induce failure part 2.png](https://github.com/EmilyGorial1/cse15l-lab-reports/blob/facd580c93bf02b9540b63d17228ed0d589ca3d6/testReverseInPlace-%20input%20that%20does%20not%20induce%20failure%20part%202.png)
-
+![testReverseInPlace-f](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/37e95678-175b-49f6-ba7e-d5a43aae606c)
 
 
