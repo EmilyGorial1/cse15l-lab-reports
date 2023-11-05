@@ -71,3 +71,17 @@ The code after
 5.) Briefly describe why the fix addresses the issue
 
 The fix addresses the issue because, initally, the first half of the array was not being recorded, so the second half of the array was not properly reversed. For this reason, we created a temporary array to store the first half of the elements. Additionally, because we are swapping elements, we do not need the loop to run through the entire array, so we run through only half of the elements.
+
+**Part 2- Researching Commands**
+
+I have chosen the grep command
+
+command line options
+
+grep -i (searches upper and lower case)
+
+grep -n (shows line number)
+
+grep -v (shows all lines that do not contain specified word)
+
+grep -B (shows lines before match)
