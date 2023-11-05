@@ -68,3 +68,6 @@ The code after
 }
 }
 ```
+5.) Briefly describe why the fix addresses the issue
+
+The fix addresses the issue because, initally, the first half of the array was not being recorded, so the second half of the array was not properly reversed. For this reason, we created a temporary array to store the first half of the elements. Additionally, because we are swapping elements, we do not need the loop to run through the entire array, so we run through only half of the elements.
