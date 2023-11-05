@@ -43,3 +43,28 @@ Below is a screenshot that proves that when input1= {1,2}, testReverseInPlace() 
 ![testReverseInPlace-f](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/37e95678-175b-49f6-ba7e-d5a43aae606c)
 
 
+4.) The before and after code
+
+The code before
+
+``` static void reverseInPlace(int[] arr)
+{
+   for(int i = 0; i< arr.length; i+=1)
+{
+   arr[i]=arr[arr.length-i-1];
+}
+}
+```
+
+The code after
+
+``` static void reverseInPlace(int[] arr)
+{
+    for(int i = 0; i < arr.length/2; i += 1)
+{
+      int temporary = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1]= temporary;
+}
+}
+```
