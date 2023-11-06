@@ -210,7 +210,7 @@ preface.txt:                public testimony from 160 witnesses.
 
 Due to the large output, I was only able to include a snippet that captures what is necessary. Here we can see that multiple files within a directory are being checked using grep-v. This is because we specified that we wanted all of the .txt files within the current directory (911reports) to be checked. If you look, you will notice that the lines printed do not contain the string "the" because the grep- v command is supposed to return all of the lines that do not contain the specified string, so all of the lines in the output do not contain this string.
 
-grep -B (shows lines before match)
+4.) grep -B (shows lines before match)
 
 a.) grep -B on a file
 
