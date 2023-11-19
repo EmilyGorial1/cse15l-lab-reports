@@ -4,7 +4,7 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
 
 1.) A failure-inducing input as a JUnit test
 
-```public class ArrayTests 
+``` public class ArrayTests 
 {
   @Test
   public void testReverseInPlace()
@@ -18,7 +18,7 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
 
 2.) An input that does not induce a failure
 
-```public class ArrayTests 
+``` public class ArrayTests 
 {
   @Test
   public void testReverseInPlace()
@@ -47,7 +47,7 @@ Below is a screenshot that proves that when input1= {1,2}, testReverseInPlace() 
 
 The code before
 
-```static void reverseInPlace(int[] arr)
+``` static void reverseInPlace(int[] arr)
 {
    for(int i = 0; i< arr.length; i+=1)
 {
@@ -58,7 +58,7 @@ The code before
 
 The code after
 
-```static void reverseInPlace(int[] arr)
+``` static void reverseInPlace(int[] arr)
 {
     for(int i = 0; i < arr.length/2; i += 1)
 {
@@ -78,7 +78,8 @@ I have chosen the grep command
 
 Command line options
 
-1.) grep -i (searches upper and lower case)
+1.) ``` grep -i ``` (searches upper and lower case)
+     https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/
 
 a.) grep -i on a file
 ```
@@ -125,7 +126,8 @@ $ grep -i "targeted" *.txt
 ```
 In this output, we can see that all of the .txt files within our current working directory (/docsearch/technical/biomed) have been searched for the given string. Additionally, we see upper and lower case outputs which proves that the -i flag searches for both upper and lower case.
 
-2.) grep -c (gives the number of lines that match the given string)
+2.) ``` grep -c ``` (gives the number of lines that match the given string)
+ https://developer.mozilla.org/en-US/blog/searching-code-with-grep/
 
 a.) grep -c on a file
 ```
@@ -158,7 +160,8 @@ preface.txt:0
 ```
 This output proves that grep -c gives us the number of times a given string ("culture") is found within all .txt files of our given directory (911reports). We can see each .txt file in 911reports listed with the number of lines containing our specified string next to it. 
 
-3.) grep -v (shows all lines that do not contain specified word)
+3.) ``` grep -v ``` (shows all lines that do not contain specified word)
+    https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/
 
 a.) grep -v on a file
 
@@ -210,7 +213,8 @@ preface.txt:                public testimony from 160 witnesses.
 
 Due to the large output, I was only able to include a snippet that captures what is necessary. Here we can see that multiple files within a directory are being checked using grep-v. This is because we specified that we wanted all of the .txt files within the current directory (911reports) to be checked. If you look, you will notice that the lines printed do not contain the string "the" because the grep- v command is supposed to return all of the lines that do not contain the specified string, so all of the lines in the output do not contain this string.
 
-4.) grep -B (shows lines before match)
+4.) ``` grep -B ``` (shows lines before match)
+https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/
 
 a.) grep -B on a file
 
