@@ -4,7 +4,8 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
 
 1.) A failure-inducing input as a JUnit test
 
-```public class ArrayTests 
+```
+public class ArrayTests 
 {
   @Test
   public void testReverseInPlace()
@@ -18,7 +19,8 @@ The bug I have chosen from week 4 is the bug in the reverseInPlace() method
 
 2.) An input that does not induce a failure
 
-```public class ArrayTests 
+```
+public class ArrayTests 
 {
   @Test
   public void testReverseInPlace()
