@@ -1,4 +1,4 @@
-**Step 4: Log into ieng6***
+**Step 4: Log into ieng6**
 
 ![step 4](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/46c01894-1108-4edb-a998-1b546dcd4913)
 
