@@ -82,7 +82,7 @@ Command line options
 1.) ``` grep -i ``` (searches upper and lower case)
      https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/
 
-a.) grep -i on a file
+a.) ```grep -i``` on a file
 ```
 Owner@DESKTOP-CF3LOP8 MINGW64 ~/Documents/GitHub/docsearch/technical (main)
 $ grep -i "threat" 911report/chapter-8.txt
@@ -104,7 +104,7 @@ $ grep -i "threat" 911report/chapter-8.txt
 ```
 Here, we can see that the -i flag on grep searches for a string in an un-case sensitive manner. We searched for the string "threat" and we can see that "threat" is displayed both in lower and upper case.
 
-b.) grep -i on a directory
+b.) ```grep -i``` on a directory
 
 ```
 $ grep -i "targeted" *.txt
@@ -130,7 +130,7 @@ In this output, we can see that all of the .txt files within our current working
 2.) ``` grep -c ``` (gives the number of lines that match the given string)
  https://developer.mozilla.org/en-US/blog/searching-code-with-grep/
 
-a.) grep -c on a file
+a.) ```grep -c``` on a file
 ```
 $ grep -c "FBI" chapter-3.txt
 114
@@ -138,7 +138,7 @@ $ grep -c "FBI" chapter-3.txt
 ```
 Here our output is 114 because the given string "FBI" is found in exactly 114 lines in the given file ("chapter-3.txt") in the working directory, 911reports.
 
-b.) grep -c on a directory
+b.) ```grep -c``` on a directory
 ```
 $ grep -c "culture" *.txt
 chapter-1.txt:0
@@ -164,7 +164,7 @@ This output proves that grep -c gives us the number of times a given string ("cu
 3.) ``` grep -v ``` (shows all lines that do not contain specified word)
     https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/
 
-a.) grep -v on a file
+a.) ```grep -v``` on a file
 
 ```
 $ grep -v "threats" chapter-8.txt
@@ -183,7 +183,7 @@ $ grep -v "threats" chapter-8.txt
 ```
 Here, we can see that the grep -v command printed all lines in the specified file ("chapter-8.txt) that do not contain our given string ("threats).
 
-b.) grep -v on a directory
+b.) ```grep -v``` on a directory
 
 ```
 grep -v "the" *.txt
@@ -217,7 +217,7 @@ Due to the large output, I was only able to include a snippet that captures what
 4.) ``` grep -B ``` (shows lines before match)
 https://zwischenzugs.com/2022/02/02/grep-flags-the-good-stuff/
 
-a.) grep -B on a file
+a.) ```grep -B``` on a file
 
 ```
 $ grep -B2 "culture" technical/911report/chapter-10.txt
@@ -227,7 +227,7 @@ $ grep -B2 "culture" technical/911report/chapter-10.txt
 ```
 Here we can see that the grep-B (we put 2 after the B to have the command print the 2 lines before the line with the specified string) command prints the lines before the line containing the specified string. In our case, the specified string is "culture" and we want the 2 lines before to print, hence the 2 after the B. In the output, we can see that the thrid line contains our specified string and the the two lines above are simply the lines that come before this line.
 
-b.) grep-B on a directory
+b.) ```grep-B``` on a directory
 
 ```
 $ grep -B2 "culture" *.txt
