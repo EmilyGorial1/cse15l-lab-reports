@@ -1,25 +1,25 @@
-** Step 4: Log into ieng6 **
+**Step 4: Log into ieng6***
 
 ![step 4](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/46c01894-1108-4edb-a998-1b546dcd4913)
 
 Keys pressed: ssh cs15lfa23hw@ieng6.uscd.edu ```<Enter>```. I had to type in the ssh command along with my course-specific account and then clicked enter 
 in order to ssh into my account. 
 
-** Step 5: Clone your fork of the repository from your Github account (using the SSH URL) **
+**Step 5: Clone your fork of the repository from your Github account (using the SSH URL)**
 
 ![step 5](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/8ea95401-0d5f-4fe2-80f2-143982d1eb08)
 
 Keys pressed: ```Ctrl-C```, typed ```git clone```, ```Ctrl-V```, ```Enter```. I first had to use ```Ctrl-C``` to copy the SSH URL from my Github account.
 I then typed the git clone commnad to be able to clone the repository. I then used ```Ctrl-V``` to paste the command and clicked ```Enter``` to run it.
 
-** Step 6: Run the tests, demonstrating that they fail **
+**Step 6: Run the tests, demonstrating that they fail**
 
 ![step 6](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/29ab0f71-d207-4e7d-9fb8-b08676fbb3c1)
 
 Keys pressed: Typed cd lab7, typed ```bash``` test.sh. I first had to cd into lab7 to be able to run the tests. Next I had to use the bash command to run the 
 tests in test.sh.
 
-** Step 7: Edit the code file to fix the failing test **
+**Step 7: Edit the code file to fix the failing test**
 
 ![step 7 part 1](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/699c72de-1a1f-414d-be5c-dd85cdbdaf09)
 
@@ -33,14 +33,14 @@ name that we are trying to change. I next used ```2L``` to move the cursor to th
 my cursor was currently on. I then clicked ```i``` to enter insert mode, after this I typed a ```2``` to insert a 2 there. Next, I clicked ```<esc>``` to exit insert mode.
 I then typed ```:wq``` and clicked ```<Enter>``` to save and exit.
 
-**Step 8: Run the tests, demonstrating that they now succeed **
+**Step 8: Run the tests, demonstrating that they now succeed**
 
 ![part 8](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/0a44e021-1284-43cc-9f98-f1f08f8c88fd)
 
 Keys presssed: ```<up> <up> <Enter>```. I clicked ```<up>``` two times because the bash test.sh command which runs the tests was two spaces up in my history. I then clicked ```<Enter>```
 to run the command.
 
-**Step 9: Commit and push the resulting change to your Github account **
+**Step 9: Commit and push the resulting change to your Github account**
 
 ![part 9](https://github.com/EmilyGorial1/cse15l-lab-reports/assets/146862114/a30c7123-f846-49f1-bfeb-3f3b73eb2bf9)
 
